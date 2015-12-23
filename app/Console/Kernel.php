@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
         \App\Console\Commands\Inspire::class,
         \App\Console\Commands\BackupDatabase::class,
         \App\Console\Commands\BackupTidy::class,
+        \App\Console\Commands\BackupRestore::class,
     ];
 
     /**
